@@ -58,13 +58,13 @@
             })
             .then(response => {
             if (response.status === 204) {
-                document.getElementById('display').innerHTML = "Success. We'll get back to you soon. :)";
+                document.getElementById('display').innerHTML = "Someone from our team will contact to you soon! :) ";
             } else {
                 throw new Error('Something went wrong on api server!');
             }
             })
             .catch((error) => {
-                document.getElementById('display').innerHTML = "Error Occured. Please try again! :()";
+                document.getElementById('display').innerHTML = "Error Occured. Please try again! :( ";
             });
             contactForm.reset();
         }
@@ -140,8 +140,8 @@
                 <div class="wow fadeInUp" data-wow-delay="0.1s">
                     <p class="section-title text-secondary justify-content-center"><span></span>Contact Us<span></span></p>
                     <h1 class="text-center mb-5">Contact For Any Query</h1>
-                    <div class="row justify-content-center" id="display"></div>
                 </div>
+                <div id="display" class="section-title text-secondary justify-content-center"></div>
 
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
@@ -181,11 +181,10 @@
                                     <div class="col-12">
                                         <button class="btn btn-primary w-100 py-3" type="button" onclick="submitForm()">Send Message</button>
                                     </div>
+                                    
                                 </div>
                             </form>
-                            
                         </div>
-                        <div id="display"></div>
                     </div>
                 </div>
             </div>
