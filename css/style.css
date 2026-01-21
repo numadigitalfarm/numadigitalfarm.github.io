@@ -152,7 +152,7 @@ h6,
     }
 
     .navbar-light .navbar-brand h1 {
-        color: var(--light);
+        color: var(--primary);
     }
 
     .navbar-light .navbar-brand img {
@@ -176,7 +176,7 @@ h6,
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
-        color: var(--primary);
+        color: var(--light);
     }
 
     .navbar-light .navbar-nav .nav-item .dropdown-menu {
