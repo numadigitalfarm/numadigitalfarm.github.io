@@ -278,7 +278,7 @@ h6,
 .section-title.text-primary span:last-child,
 .section-title.text-primary span:first-child::after,
 .section-title.text-primary span:last-child::after {
-    background: var(--primary);
+    background: var(--light);
 }
 
 .section-title.text-secondary span:first-child,
