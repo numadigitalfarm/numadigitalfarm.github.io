@@ -14,13 +14,14 @@ export async function generateStaticParams() {
 }
 
 interface CaseStudyPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
-export default function CaseStudyPage({ params }: CaseStudyPageProps) {
-  const storyId = parseInt(params.id);
+export default async function CaseStudyPage({ params }: CaseStudyPageProps) {
+  const { id } = await params;
+  const storyId = parseInt(id);
   const story = successStories.find(s => s.id === storyId);
 
   if (!story) {
