@@ -1,7 +1,4 @@
-'use client';
-
 import React from 'react';
-import { useParams } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
@@ -9,9 +6,21 @@ import Image from 'next/image';
 import { ArrowLeft, ExternalLink, CheckCircle } from 'lucide-react';
 import { successStories, technologyIcons } from '@/data/successStoriesData';
 
-export default function CaseStudyPage() {
-  const params = useParams();
-  const storyId = parseInt(params.id as string);
+// Generate static params for all success stories
+export async function generateStaticParams() {
+  return successStories.map((story) => ({
+    id: story.id.toString(),
+  }));
+}
+
+interface CaseStudyPageProps {
+  params: {
+    id: string;
+  };
+}
+
+export default function CaseStudyPage({ params }: CaseStudyPageProps) {
+  const storyId = parseInt(params.id);
   const story = successStories.find(s => s.id === storyId);
 
   if (!story) {

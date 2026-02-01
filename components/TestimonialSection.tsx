@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
                       ? 'bg-white shadow-md border-blue-200'
                       : 'bg-transparent hover:bg-white/60 border-transparent'
                   }`}
-                  aria-selected={activeTab === index}
+                  aria-pressed={activeTab === index}
                 >
                   <div className="w-16 h-16 bg-white rounded-xl shadow flex items-center justify-center flex-shrink-0 border border-gray-100">
                     <Image
