@@ -10,9 +10,9 @@ const Header = () => {
 
   const menuItems = [
     { name: 'success stories', href: '/success-stories' },
-    { name: 'how we work', href: '/how-we-work' },
-    { name: 'approach', href: '/approach' },
+    { name: 'our approach', href: '/our-approach' },
     { name: 'technology stack', href: '/technology-stack' },
+    { name: 'trainings', href: '/trainings' },
     { name: 'career', href: '/career' },
     { name: 'blog', href: '/blog' },
     { name: 'about', href: '/about' },
