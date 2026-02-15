@@ -7,6 +7,7 @@ import ExperienceSection from '@/components/ExperienceSection';
 import TestimonialsSection from '@/components/TestimonialSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+import ScholioPartnershipSection from '@/components/ScholioPartnershipSection';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <ServicesSection />
       <TechnologySection />
       <ExperienceSection />
+      <ScholioPartnershipSection />
       {/* <TestimonialsSection /> */}
       <ContactSection />
       <Footer />
