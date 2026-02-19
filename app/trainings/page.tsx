@@ -127,9 +127,13 @@ export default function Trainings() {
                 <span className="text-sm font-medium text-blue-300">Professional Training Program</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Master React Development</h1>
-              <p className="text-xl text-gray-300 mb-8">
+              <p className="text-xl text-gray-300 mb-6">
                 Comprehensive React training designed to transform you into a proficient React developer in just 4 weeks.
               </p>
+              <div className="bg-[#61DAFB]/20 border border-[#61DAFB]/40 rounded-lg px-6 py-4 mb-8 inline-block">
+                <div className="text-2xl font-bold text-[#61DAFB] mb-1">Fee: NPR 9,999</div>
+                <div className="text-sm text-gray-300">Inclusive of VAT</div>
+              </div>
               <div className="flex flex-wrap gap-4">
                 <Link
                   href="/#discover-us"
