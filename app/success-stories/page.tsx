@@ -37,7 +37,7 @@ export default function SuccessStories() {
                   <span className="text-blue-400 font-semibold">Recent Achievement</span>
                 </div>
                 <p className="text-gray-300">
-                  Successfully delivered the ICRTAI 2024 conference platform, 
+                  Successfully delivered the ICRTAI 2025 conference platform, 
                   managing 500+ attendees and receiving outstanding feedback.
                 </p>
               </div>
