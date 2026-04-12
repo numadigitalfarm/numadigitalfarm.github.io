@@ -38,10 +38,10 @@ const ScholioPartnershipSection = () => {
                   Partnership
                 </span>
                 <h2 className="text-4xl lg:text-5xl font-bold text-[#0a1e2d] mb-6">
-                  Exclusive Nepal Partnership
+                  Partnership
                 </h2>
                 <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                  NDF is proud to be the <span className="font-semibold text-[#0a1e2d]">Exclusive Nepal Partnership</span> and <span className="font-semibold text-[#0a1e2d]">Outreach Partner</span> for <span className="font-semibold text-primary">Scholio</span>, an innovative AI-powered website builder and CMS platform designed specifically for schools.
+                  NDF is proud to be the <span className="font-semibold text-[#0a1e2d]">Partnership</span> and <span className="font-semibold text-[#0a1e2d]">Outreach Partner</span> for <span className="font-semibold text-primary">Scholio</span>, an innovative AI-powered website builder and CMS platform designed specifically for schools.
                 </p>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   Scholio empowers educational institutions to create beautiful, functional websites with ease. Our partnership enables us to bring this cutting-edge technology to schools across Nepal, helping them establish a strong digital presence and streamline their content management.
