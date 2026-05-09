@@ -45,7 +45,7 @@ export default function Blog() {
       icon: <SiReact className="w-16 h-16 text-blue-500" />
     },
     {
-      title: "The Future of Web Development: What's Coming in 2025",
+      title: "The Future of Web Development: What's Coming in 2026",
       category: "Web Development" as keyof typeof categoryIcons,
       date: "May 28, 2024",
       excerpt: "From AI-powered development tools to new frameworks and standards, here's what to expect in web development next year.",
